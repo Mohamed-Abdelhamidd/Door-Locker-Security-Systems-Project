@@ -1,0 +1,20 @@
+21:34:34 **** Incremental Build of configuration Debug for project MC2_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 MC2_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8234 bytes (25.1% Full)
+(.text + .data + .bootloader)
+
+Data:         30 bytes (1.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+21:34:34 Build Finished. 0 errors, 0 warnings. (took 213ms)
+
